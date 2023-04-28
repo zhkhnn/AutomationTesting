@@ -78,7 +78,7 @@ public class Main{
     @DataProvider(name = "checkoutData")
     public Object[][] checkoutData(){
         return new Object[][]{
-                {"Seitmurat", "Seitkul", "160001", "https://www.saucedemo.com/checkout-complete.html"}
+                {"Aruzhan", "Zhakhan", "160005", "https://www.saucedemo.com/checkout-complete.html"}
         };
     }
 }
