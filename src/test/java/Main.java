@@ -40,7 +40,7 @@ public class Main{
         };
     }
     @Test(priority = 1)
-    public void cartTest(){
+    public cartTest(){
         WebElement btn1 = driver.findElement(By.xpath("//*[@id='add-to-cart-sauce-labs-backpack']"));
         WebElement btn2 = driver.findElement(By.xpath("//*[@id='add-to-cart-sauce-labs-bike-light']"));
         btn1.click();
