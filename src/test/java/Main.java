@@ -13,7 +13,7 @@ import java.time.Duration;
 public class Main{
     WebDriver driver;
     @BeforeSuite
-    public setup(){
+    public void setup(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
 
